@@ -2,10 +2,23 @@
   "name": "bbt",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "b": "src/index.js"
+  },
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "webpack": "^4.39.2",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
 }
