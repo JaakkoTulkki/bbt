@@ -8,5 +8,6 @@ exports.run =  function build(args) {
     if(err) {
       throw err;
     }
+    console.log(status)
   })
 };
